@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+
+license = "All rights reserved"
+issueTrackerURL = "https://example.com/"
+displayURL = "https://example.com/"
+
+[[mods]]
+modId = "heighteffect"
+version = "1.0.0"
+displayName = "Height Effects"
+description = "Даёт негативные эффекты"
+authors = "1c214"
+logoFile = ""
+
+[[dependencies.heighteffects]]
+modId = "forge"
+versionRange = "[47.1.0,)"
+mandatory = true
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.heighteffects]]
+modId = "minecraft"
+versionRange = "[1.20.1,1.21)"
+mandatory = true
+ordering = "NONE"
+side = "BOTH"
